@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835262937838",
+    "project_id": "retrofitcrud-8822d",
+    "storage_bucket": "retrofitcrud-8822d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835262937838:android:20e33d1f603cbca43b11ff",
+        "android_client_info": {
+          "package_name": "com.example.retrofitcrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835262937838-t25thfilcn6v88ls0ouno11dojflncq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmNkW20XB3DeWXkMY4QCdAxMDJomjYsEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835262937838-t25thfilcn6v88ls0ouno11dojflncq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

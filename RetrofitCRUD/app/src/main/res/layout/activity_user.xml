@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="630dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="23dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtUId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+                <EditText
+                    android:id="@+id/edtUserId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Id"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="15dp"/>
+                <EditText
+                    android:id="@+id/txtnomape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nombres y apellidos"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="15dp"/>
+
+                <Spinner
+                    android:id="@+id/s_tipodoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:id="@+id/txtDNI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:hint="Ingrese DNI"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:hint="Correo electrónico"
+                    android:inputType="textEmailAddress" />
+
+                <Spinner
+                    android:id="@+id/sperfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtuser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    android:hint="Usuario"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ingresar contraseña"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/txtpassconfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Confirmar contraseña"
+                    android:layout_marginBottom="20dp"
+                    android:inputType="textPassword" />
+
+                <Button
+                    android:id="@+id/btnregistrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar" />
+
+                <Button
+                    android:id="@+id/btnback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Atras" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

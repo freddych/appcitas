@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">APP CITAS MÉDICAS</string>
+    <string name="txt_menu">Menu</string>
+    <string name="txt_menu_agregar_cliente">Agregar Cliente</string>
+    <string name="txt_menu_agregar_paciente">Agregar Paciente</string>
+    <string name="txtadd_user">Agregar usuario</string>
+    <string name="txtadd_cita">Agendar</string>
+    <string-array name="listatipodocumento">
+        <item>DNI</item>
+        <item>Carnet de Extranjeria</item>
+        <item>RUC</item>
+        <item>Pasaporte</item>
+        <item>Partida de Nacimiento</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="listaperfil">
+        <item>admin</item>
+        <item>doctor</item>
+    </string-array>
+
+    <string-array name="lista_especialidades">
+        <item>Pediatría</item>
+        <item>Dermatología</item>
+        <item>Ginecología</item>
+        <item>Psiquiatría</item>
+        <item>Oftalmología</item>
+        <item>Neurología</item>
+        <item>Medicina General</item>
+        <item>Urologia</item>
+        <item>Oncología</item>
+    </string-array>
+
+    <string-array name="lista_medicos">
+        <item>Jesús Medina Diaz</item>
+        <item>Rosa Rodriguez Guerra</item>
+        <item>Tania Torres Rios</item>
+        <item>Gregoria Roman Paredes</item>
+        <item>Gerardo Jimenez Gonzales</item>
+        <item>Alejandro Medrano Becerra</item>
+        <item>Julio Zavaleta Vega</item>
+        <item>William Maldonado Garcia</item>
+        <item>Enrique Arias Paredes</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

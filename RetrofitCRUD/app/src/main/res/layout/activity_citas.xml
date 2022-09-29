@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CitasActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/tvtitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Citas Medicas"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/tvIdCita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvIdUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/edNombrePaciente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nombre Paciente" />
+
+        <EditText
+            android:id="@+id/edFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese fecha"
+            android:inputType="date"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+
+        <EditText
+            android:id="@+id/edHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese Hora"
+            android:inputType="time" />
+
+        <Spinner
+            android:id="@+id/spEspecialidad"
+            android:layout_width="match_parent"
+            android:layout_height="41dp" />
+        <Spinner
+            android:id="@+id/spMedico"
+            android:layout_width="match_parent"
+            android:layout_height="41dp" />
+
+        <EditText
+            android:id="@+id/edMultiComentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:gravity="start|top"
+            android:hint="Ingrese un comentario"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AGENDAR" />
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atras" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
